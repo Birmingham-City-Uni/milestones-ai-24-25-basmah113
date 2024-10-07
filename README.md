@@ -2,16 +2,25 @@
 
 **Artificial Intelligence**
 
+**Tutor Feedback Reflection**
+**Week 4 Feedback (Milestone 1)**
+- Feedback: 
+- Action Taken: 
+
+**Week 8 Feedback (Milestone 2)**
+- Feedback: 
+- Action Taken: 
+
 
 **Overview**
-This project contains Artificial Intelligence Game Development project developed using Unity and Visual Studio. The Game implements Boss Battle with Artificial Intelligence. 
+This project contains Artificial Intelligence Game Development project developed using Unity and Visual Studio. 
 
 **Folders / Structures**
 Basmah_Arif_21159823
-[bin] (contains)
-[code] (contains
-imgs
-[Readme] (this file)
+[bin] (contains...)
+[code] (contains...)
+imgs (contains...)
+[Readme] (this file...)
 [video] (h264/aac)
 
 **Installation**
