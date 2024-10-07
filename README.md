@@ -3,6 +3,10 @@
 **Artificial Intelligence**
 
 **Tutor Feedback Reflection**
+**Week 3 Feedback**
+- Feedback: 
+- Action Taken:
+
 **Week 4 Feedback (Milestone 1)**
 - Feedback: 
 - Action Taken: 
