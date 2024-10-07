@@ -2,7 +2,7 @@
 
 **Artificial Intelligence**
 
-Description, background, agent pictures, map layout, weekly logbook
+Description, background, agent pictures, map layout, weekly logbook, issues, projects
 
 **Tutor Feedback Reflection**
 **Week 3 Feedback**
