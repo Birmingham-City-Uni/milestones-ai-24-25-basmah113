@@ -2,6 +2,8 @@
 
 **Artificial Intelligence**
 
+Description, background, agent pictures, map layout, weekly logbook
+
 **Tutor Feedback Reflection**
 **Week 3 Feedback**
 - Feedback: 
