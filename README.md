@@ -46,6 +46,8 @@ Basmah_Arif_21159823
 [bin] (contains compiled binaries)
 [code] (contains source code)
 imgs (contains projects images and visual assets)
+[labs] (contains lab workshops from week to week, documenting the progress of lectures)
+.gitignore (contains untracked files to ignore in Git such as Build files, logs)
 [Readme] (this file contains documentation)
 [video] (this file will contain gameplay and project demo videos with h264/aac however not yet implemented)
 
