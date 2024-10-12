@@ -1,0 +1,19 @@
+ENABLE_CPP: true
+
+VALIDATE_JAVA: true        
+VALIDATE_PYTHON: true     
+
+DISABLE: 
+  - CSHARP                 
+  - JSCPD                  
+  - MARKDOWN               
+  - YAML                   
+  - JSON_PRETTIER          
+  - NATURAL_LANGUAGE        
+
+# Specify a list of file extensions that the linter should ignore
+FILTER_REGEX_EXCLUDE: ".*(test|vendor)/.*"  # Ignore certain folders
+
+# Customize linter behavior for prettier formats
+YAML_PRETTIER: true       
+JSON_PRETTIER: true       
