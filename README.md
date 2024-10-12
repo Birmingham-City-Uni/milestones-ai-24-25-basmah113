@@ -91,6 +91,7 @@ Basmah Arif - Lead Developer
 Throughout my time in studying, this weekly logbook will document the skills, methodologies, and achievements I acquire and accomplish during my Semester 1 Artificial Intelligence Module. I will record this information on a week-to-week basis, offering detailed insights into the tasks I undertake. Moreover, I will highlight how these tasks contribute to expanding my expertise in my role as an Artificial Intelligence Developer. 
 
 **September 2024** 
+
 **Week 1: Introduction of the module – W/C 23rd September 2024**
 - Summary: Introduction to the AI module and assessment guide. Dr.Carlo gave us an overview of the project and past students' examples. Initial setup for organizing files and GitHub repository.
 - Progress: Created project folder structure and started the logbook. Completed the lab on vectors in Unity and Linear Regression along with decision trees.
@@ -106,6 +107,7 @@ Throughout my time in studying, this weekly logbook will document the skills, me
 
 
 **October 2024**
+
 **Week 3: Updating GitHub, Presentation & Preparation for Milestone 1 – W/C 7th October 2024**
 - Summary: Focused on organizing the GitHub repository and preparing for Milestone 1. Dr. Carlo provided guidance on best examples for GitHub project structure and logbook maintenance. I also discussed my Game Idea with Dr.Carlo and he gave me feedback on the further improvements which needs to be completed. 
 - Progress: Organized the repository, added weekly logs, and created GitHub issues for task tracking. Began brainstorming the Dracula boss battle AI mechanics and incorporated feedback from Dr. Carlo.
