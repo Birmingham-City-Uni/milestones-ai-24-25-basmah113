@@ -64,10 +64,6 @@ Thumbs.db
 !ProjectSettings/
 !Packages/
 
-# Ignore unnecessary metadata
-# Keeping only essential files for GitHub storage.
-*.meta
-
 # Exclude other files that may be too large:
 *.ogg
 *.mp3
