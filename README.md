@@ -124,10 +124,10 @@ Throughout my time in studying, this weekly logbook will document the skills, me
 
 
 **Week 4: Milestone 1 Feedback & Implementation of Game – W/C 14th October 2024**
-- Summary: Received full marks on the GitHub repository with feedback for improvements in the repository. Started with Week 4 Lab workshops along with my Game implementation.
-- Progress: I started creating Pull Requests with code reviews in my repository along with linking my Project within the repository as it was externally done before. I also updated the README weekly logs and feedbacks along with implementation of Game scene with Pathfinding AI Grid.
+- Summary: Received full marks on the GitHub repository with feedback from Dr.Carlo. Started with Week 4 Lab workshops along with my Game implementation.
+- Progress: I started creating Pull Requests with code reviews in my repository along with linking my Project within the repository as it was externally done before. I also updated the README weekly logs and feedback along with implementation of Game scene with Pathfinding AI Grid.
 - Reflection: The feedback which I had received was already completed on the same day. I also completed Lab workshops and started the Pathfinding implementation within my game scene.
-- Next Steps: Further work on my Game and its mechanics.
+- Next Steps: Further work on my Game and its mechanics with AI agent behaviours.
 
 **Week 5: – W/C 21st October 2024**
 Pending
