@@ -76,8 +76,6 @@ Open Visual Studio from application folder
 - I have used GitHub Projects Agile methodology to track my tasks and progress.
 - Regular use of GitHub Issues for feature tracking and task assignment.
 
-![image](https://github.com/user-attachments/assets/6255e331-0714-4cd9-90ee-d1b48f214f1b)
-
 **Quality Assurance**
 - I will be using code linting for consistency and bug prevention.
 - CI/CD setup in GitHub to ensure smooth integration and testing.
