@@ -34,8 +34,8 @@ Unity: https://unity.com/
 - **Action Taken:** Updated README with clearer descriptions, folder structure, and added weekly logbook for reflection. Started planning AI Agents for my game. I roughly designed the Dracula Boss as the main character and implemented bat agents to act as enemies. These bat agents will be spawned at intervals, with their actions revolving around attacking the main character. I also began planning their behaviors using finite state machines (FSM), focusing on their damage-dealing frequency and how they will coordinate with the Main Boss (Dracula) to create a challenging gameplay experience. Incorporated health and distance checks to manage how often the AI Agents damage the Main Boss, ensuring the game balance and player engagement.
 
 **Week 4 Feedback (Milestone 1)**
-- **Feedback:** PENDING
-- **Action Taken:** PENDING
+- **Feedback:** I have been awarded 5.00 marks for my first milestone for GitHub Repro. The feedback which I received was to link the GitHub Project within the repository, as it was externally done. 
+- **Action Taken:** I had a discussion with Dr.Carlo to invite me to the BCU organization so I can link my Project accurately within the repository. Then after I had access, I added the projects to my repository. I also worked on my Pull Request Code reviews in the github repository and also I made sure to fix the issue with my CI /CD Build Issue in the repository. 
 
 **Week 8 Feedback (Milestone 2)**
 - **Feedback:** PENDING
@@ -125,6 +125,12 @@ Throughout my time in studying, this weekly logbook will document the skills, me
 - Next Steps: Implement AI mechanics for the Dracula boss, including bat agent spawning and damage logic.
 
 
-**Week 4: Milestone 1 – W/C 14th October 2024**
+**Week 4: Milestone 1 Feedback & Implementation of Game – W/C 14th October 2024**
+- Summary: Received full marks on the GitHub repository with feedback for improvements in the repository. Started with Week 4 Lab workshops along with my Game implementation.
+- Progress: I started creating Pull Requests with code reviews in my repository along with linking my Project within the repository as it was externally done before. I also updated the README weekly logs and feedbacks along with implementation of Game scene with Pathfinding AI Grid.
+- Reflection: The feedback which I had received was already completed on the same day. I also completed Lab workshops and started the Pathfinding implementation within my game scene.
+- Next Steps: Further work on my Game and its mechanics.
+
+**Week 5: – W/C 21st October 2024**
 Pending
 
