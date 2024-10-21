@@ -48,19 +48,19 @@ Software used to implement the Game Scene:
 
 Basmah_Arif_21159823
 
-[bin] (contains compiled binaries)
+- [bin] (contains compiled binaries)
 
-[code] (contains source code)
+- [code] (contains source code)
 
-imgs (contains projects images and visual assets)
+- imgs (contains projects images and visual assets)
 
-[labs] (contains lab workshops from week to week, documenting the progress of lectures)
+- [labs] (contains lab workshops from week to week, documenting the progress of lectures)
 
-.gitignore (contains untracked files to ignore in Git such as Build files, logs)
+- .gitignore (contains untracked files to ignore in Git such as Build files, logs)
 
-[Readme] (this file contains documentation)
+- [Readme] (this file contains documentation)
 
-[video] (this file will contain gameplay and project demo videos with h264/aac however not yet implemented)
+- [video] (this file will contain gameplay and project demo videos with h264/aac however not yet implemented)
 
 **Installation**
 Clone the repository to your local machine: 
