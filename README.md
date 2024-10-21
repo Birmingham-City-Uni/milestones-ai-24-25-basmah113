@@ -85,17 +85,18 @@ Open Visual Studio from application folder
 - Regular code reviews by automated tests to validate the codebase. 
 
 **Contributing**
-Git hub repository
-Check out a new Feature branch: git checkout -b myrepository
-Commit changes: git commit -am 'basmah113'
-Push to the branch: git push origin my-repository
-Submit a pull request :D
+
+- Git hub repository
+- Check out a new Feature branch: git checkout -b myrepository
+- Commit changes: git commit -am 'basmah113'
+- Push to the branch: git push origin my-repository
+- Submit a pull request :D
 
 **References:**
 
 
 **Contributors**
-Basmah Arif - Lead Developer
+- Basmah Arif - Lead Developer
 
 
 **Weekly Logbook**
