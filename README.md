@@ -24,9 +24,12 @@ The game is a Level 1 Boss Battle where the protagonist, a human warrior, battle
 The game has been inspired by my childhood interest with vampires, especially the mythical Dracula. Because of their mysterious nature, life expectancy, and sinister charm, vampires have always captivated me. My decision to create my game on a boss fight with Dracula was driven by this obsession. My goal is to draw players into a gothic, spooky setting that relies on this immortal mythos by include vampires and bats. In order to further establish Dracula as a terrifying opponent, it has been decided to make him somewhat larger than human warrior, which leaves the player feeling powerless and in fear. I choose to concentrate on Finite State Machines (FSMs) for the AI behaviour because I want to provide an engaging and difficult experience. Since FSMs enable more complex opponent behaviour, boss battles become unpredictable and fascinating. In order to balance the game's difficulty level and provide the player with feedback on their performance, I'm also including health and distance checks. By attacking the player at crucial times when they are most exposed, the AI agents (bats) will be vital in raising the tension. These agents will be called out by Dracula at certain health thresholds, which is closely related to his combat plan.
 
 **Technologies**
+
 Software used to implement the Game Scene:
-Visual Studio: https://https//code.visualstudio.com/
-Unity: https://unity.com/
+
+- Visual Studio: https://https//code.visualstudio.com/
+
+- Unity: https://unity.com/
 
 **Tutor Feedback Reflection**
 **Week 3 Feedback**
@@ -45,19 +48,19 @@ Unity: https://unity.com/
 
 Basmah_Arif_21159823
 
-[bin] (contains compiled binaries)
+- [bin] (contains compiled binaries)
 
-[code] (contains source code)
+- [code] (contains source code)
 
-imgs (contains projects images and visual assets)
+- imgs (contains projects images and visual assets)
 
-[labs] (contains lab workshops from week to week, documenting the progress of lectures)
+- [labs] (contains lab workshops from week to week, documenting the progress of lectures)
 
-.gitignore (contains untracked files to ignore in Git such as Build files, logs)
+- .gitignore (contains untracked files to ignore in Git such as Build files, logs)
 
-[Readme] (this file contains documentation)
+- [Readme] (this file contains documentation)
 
-[video] (this file will contain gameplay and project demo videos with h264/aac however not yet implemented)
+- [video] (this file will contain gameplay and project demo videos with h264/aac however not yet implemented)
 
 **Installation**
 Clone the repository to your local machine: 
@@ -82,17 +85,18 @@ Open Visual Studio from application folder
 - Regular code reviews by automated tests to validate the codebase. 
 
 **Contributing**
-Git hub repository
-Check out a new Feature branch: git checkout -b myrepository
-Commit changes: git commit -am 'basmah113'
-Push to the branch: git push origin my-repository
-Submit a pull request :D
+
+- Git hub repository
+- Check out a new Feature branch: git checkout -b myrepository
+- Commit changes: git commit -am 'basmah113'
+- Push to the branch: git push origin my-repository
+- Submit a pull request :D
 
 **References:**
 
 
 **Contributors**
-Basmah Arif - Lead Developer
+- Basmah Arif - Lead Developer
 
 
 **Weekly Logbook**
