@@ -155,4 +155,5 @@ Throughout my time in studying, this weekly logbook will document the skills, me
 -	Next Steps: Continue refining the game mechanics and AI behaviours based on feedback from Milestone II. 
 
 **Week 8: Milestone II Feedback – W/C 11th November 2024**
+
 Pending
