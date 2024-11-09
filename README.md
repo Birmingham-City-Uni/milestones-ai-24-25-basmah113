@@ -133,6 +133,26 @@ Throughout my time in studying, this weekly logbook will document the skills, me
 - Reflection: The feedback which I had received was already completed on the same day. I also completed Lab workshops and started the Pathfinding implementation within my game scene.
 - Next Steps: Further work on my Game and its mechanics with AI agent behaviours.
 
-**Week 5: – W/C 21st October 2024**
-Pending
+**Week 5: Started Implementing Game Scene  – W/C 21st October 2024**
+-	Summary: Initiated the development of the game scene, focusing on foundational aspects like the layout, player movement and initial AI setup.
+-	Progress: This week, I implemented the basic environment for the game, laying out the path where the player would navigate. I began integrating AI components for the first iteration of Pathfinding, creating grid-based navigation to guide the AI agents along designated paths. This involved setting up an initial AI framework and configuring the movement boundaries.
+-	Reflection: Setting up the game scene was challenging, especially ensuring the layout aligned with the mechanics and the planned AI movements. Despite the complexity, I managed to establish a clear structure for the AI to operate within. Working on the scene’s design provided insight into necessary adjustments for smoother gameplay flow.
+-	Next Steps: Further refine the AI navigation by adding obstacles for agents to interact with and improve the pathfinding grid's efficiency. Continue working on additional game mechanics and AI behaviour customization.
 
+**Week 6: Implemented Pathfinding and Enhanced AI Agent Behaviours – W/C 28th October 2024**
+-	Summary: Completed the Pathfinding implementation for the game’s AI and started focusing on more agent behaviours to simulate realistic movement and reactions.
+-	Progress: Successfully integrated Pathfinding with Unity’s AI system, allowing agents to dynamically navigate the grid while avoiding obstacles. I worked on fine-tuning AI agent behaviours, making them responsive to player actions and environmental changes. This included implementing basic obstacle avoidance and exploring various algorithms to ensure the AI agents could adapt to changes in the player’s path.
+-	Reflection: Integrating Pathfinding was a significant milestone, as it allowed for dynamic movement and interactivity with the player. Fine-tuning the AI behaviours required experimentation with different configurations to achieve realistic responses. The AI now interacts better within the game environment, adding an element of challenge and immersion.
+-	Next Steps: Begin testing and optimizing the AI behaviours for efficiency and smooth gameplay. 
+
+
+**November 2024**
+
+**Week 7: Worked on Game Project & Prepared for Milestone II – W/C 04th November 2024**
+-	Summary: Focused on refining the game mechanics and responding to feedback from Milestone I. Worked on polishing the AI Pathfinding, further enhancing the player interaction experience and addressing previous feedback.
+-	Progress: This week, I revisited the feedback from Milestone I, implementing recommended changes to improve the game’s overall quality. Enhancements included refining the Pathfinding AI grid and improving the response time of AI agents to player actions. I also documented these changes in the repository and updated my weekly logs. Additionally, I started preparing for Milestone II by creating a detailed plan for showcasing the current progress and the core functionalities implemented so far.
+-	Reflection: Implementing these changes made the game flow more naturally and added a layer of polish to the AI mechanics. Preparing for Milestone II also helped me assess the progress and areas that need further development.
+-	Next Steps: Continue refining the game mechanics and AI behaviours based on feedback from Milestone II. 
+
+**Week 8: Milestone II Feedback – W/C 11th November 2024**
+Pending
