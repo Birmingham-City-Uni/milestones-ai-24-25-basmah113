@@ -35,6 +35,10 @@ The game is a Level 1 Boss Battle where the protagonist, a human warrior, battle
 
 The game has been inspired by my childhood interest with vampires, especially the mythical Dracula. Because of their mysterious nature, life expectancy, and sinister charm, vampires have always captivated me. My decision to create my game on a boss fight with Dracula was driven by this obsession. My goal is to draw players into a gothic, spooky setting that relies on this immortal mythos by include vampires and bats. In order to further establish Dracula as a terrifying opponent, it has been decided to make him somewhat larger than human warrior, which leaves the player feeling powerless and in fear. I choose to concentrate on Finite State Machines (FSMs) for the AI behaviour because I want to provide an engaging and difficult experience. Since FSMs enable more complex opponent behaviour, boss battles become unpredictable and fascinating. In order to balance the game's difficulty level and provide the player with feedback on their performance, I'm also including health and distance checks. By attacking the player at crucial times when they are most exposed, the AI agents (bats) will be vital in raising the tension. These agents will be called out by Dracula at certain health thresholds, which is closely related to his combat plan.
 
+## UML Class Diagram 
+
+https://github.com/Birmingham-City-Uni/milestones-ai-24-25-basmah113/issues/7#issuecomment-2466563153
+
 ## Technologies Used
 
 - Visual Studio: https://https//code.visualstudio.com/ (Code Development)
