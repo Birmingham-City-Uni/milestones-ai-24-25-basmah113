@@ -37,7 +37,7 @@ The game has been inspired by my childhood interest with vampires, especially th
 
 ## UML Class Diagram 
 
-https://github.com/Birmingham-City-Uni/milestones-ai-24-25-basmah113/issues/7#issuecomment-2466563153
+![uml diagram](https://github.com/user-attachments/assets/4e32ec0c-f36d-4cce-b31a-90673dc6e065)
 
 ## Technologies Used
 
