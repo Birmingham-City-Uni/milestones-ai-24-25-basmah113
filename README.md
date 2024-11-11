@@ -44,6 +44,9 @@ The game has been inspired by my childhood interest with vampires, especially th
 
 **Player**
 
+![Player](https://github.com/user-attachments/assets/54ac54a4-0102-430e-a247-db84238bb119)
+
+
 **Boss Dracula**
 
 **Map Layout**
