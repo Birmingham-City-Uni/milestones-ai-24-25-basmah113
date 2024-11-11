@@ -39,6 +39,15 @@ The game has been inspired by my childhood interest with vampires, especially th
 
 ![uml diagram](https://github.com/user-attachments/assets/4e32ec0c-f36d-4cce-b31a-90673dc6e065)
 
+
+## Development Specification
+
+**Player**
+
+**Boss Dracula**
+
+**Map Layout**
+
 ## Technologies Used
 
 - Visual Studio: https://https//code.visualstudio.com/ (Code Development)
