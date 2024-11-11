@@ -35,6 +35,34 @@ The game is a Level 1 Boss Battle where the protagonist, a human warrior, battle
 
 The game has been inspired by my childhood interest with vampires, especially the mythical Dracula. Because of their mysterious nature, life expectancy, and sinister charm, vampires have always captivated me. My decision to create my game on a boss fight with Dracula was driven by this obsession. My goal is to draw players into a gothic, spooky setting that relies on this immortal mythos by include vampires and bats. In order to further establish Dracula as a terrifying opponent, it has been decided to make him somewhat larger than human warrior, which leaves the player feeling powerless and in fear. I choose to concentrate on Finite State Machines (FSMs) for the AI behaviour because I want to provide an engaging and difficult experience. Since FSMs enable more complex opponent behaviour, boss battles become unpredictable and fascinating. In order to balance the game's difficulty level and provide the player with feedback on their performance, I'm also including health and distance checks. By attacking the player at crucial times when they are most exposed, the AI agents (bats) will be vital in raising the tension. These agents will be called out by Dracula at certain health thresholds, which is closely related to his combat plan.
 
+## UML Class Diagram 
+
+![uml diagram](https://github.com/user-attachments/assets/4e32ec0c-f36d-4cce-b31a-90673dc6e065)
+
+
+## Development Specification
+
+**Player**
+
+![Player](https://github.com/user-attachments/assets/54ac54a4-0102-430e-a247-db84238bb119)
+
+
+**Boss Dracula**
+
+![Dracula Boss](https://github.com/user-attachments/assets/957f6cce-c773-4126-acd7-921380b1f567)
+
+
+**Map Layout**
+
+![Map Layout](https://github.com/user-attachments/assets/b865999b-38b2-4c4a-a31b-db1da8fc97e5)
+
+
+**Current Progress**
+
+![Progress](https://github.com/user-attachments/assets/9af2995b-3de2-4a67-9771-5b4d96d3d54a)
+
+
+
 ## Technologies Used
 
 - Visual Studio: https://https//code.visualstudio.com/ (Code Development)
