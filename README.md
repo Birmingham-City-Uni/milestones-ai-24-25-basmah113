@@ -49,6 +49,8 @@ The game has been inspired by my childhood interest with vampires, especially th
 
 **Boss Dracula**
 
+![Dracula Boss](https://github.com/user-attachments/assets/957f6cce-c773-4126-acd7-921380b1f567)
+
 **Map Layout**
 
 ## Technologies Used
