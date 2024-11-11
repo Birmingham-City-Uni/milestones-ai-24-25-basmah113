@@ -54,13 +54,24 @@ The game has been inspired by my childhood interest with vampires, especially th
 
 **Map Layout**
 
+The map features a central river dividing open battle zones and dense forest areas, creating natural obstacles and strategic points for AI pathfinding and ambushes in the Dracula boss battle. 
+
+**Gameplay Implications:**
+
+- **Strategic Movement:** The river, forested areas and rocks make navigation and combat strategic so the player and AI agents can carefully move around obstacles.
+
+- **Pathfinding Complexity:** The combination of walkable and non-walkable areas provides a challenging environment for pathfinding, especially when further implementations of algorithms like A* will be used to navigate around obstacles.
+  
+- **Ambush and Defense:** The trees and rocks offer tactical ambush spots for bats, while the open areas and river crossings become high-stakes zones for confrontations with Dracula.
+
 ![Map Layout](https://github.com/user-attachments/assets/b865999b-38b2-4c4a-a31b-db1da8fc97e5)
 
 
 **Current Progress**
 
-![Progress](https://github.com/user-attachments/assets/9af2995b-3de2-4a67-9771-5b4d96d3d54a)
+The current progress of the gameplay shows the player facing off against the Dracula boss character in an open environment. 
 
+![Progress](https://github.com/user-attachments/assets/9af2995b-3de2-4a67-9771-5b4d96d3d54a)
 
 
 ## Technologies Used
