@@ -59,6 +59,8 @@ The game has been inspired by my childhood interest with vampires, especially th
 
 **Current Progress**
 
+![Progress](https://github.com/user-attachments/assets/9af2995b-3de2-4a67-9771-5b4d96d3d54a)
+
 
 
 ## Technologies Used
