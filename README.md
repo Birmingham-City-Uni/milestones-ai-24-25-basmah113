@@ -94,11 +94,15 @@ The current progress of the gameplay shows the player facing off against the Dra
 - **Feedback:** I have been awarded 5.00 marks for my first milestone for GitHub Repro. The feedback which I received was to link the GitHub Project within the repository, as it was externally done. 
 - **Action Taken:** I had a discussion with Dr.Carlo to invite me to the BCU organization so I can link my Project accurately within the repository. Then after I had access, I added the projects to my repository. I also worked on my Pull Request Code reviews in the github repository and also I made sure to fix the issue with my CI /CD Build Issue in the repository. 
 
-**Week 8 Feedback (Milestone 2)**
-- **Feedback:** PENDING
-- **Action Taken:** PENDING
+**Week 9 Feedback (Milestone 2)**
+- **Feedback:** I have been awarded 5.00 marks for my second milestone for GitHub Repro. I have briefly discussed with Dr.Carlo about the Boids which I should use in my GameScene and he has suggested me that Spawning & Flocking Bats will be easier for me.
+- **Action Taken:** I am going to further implement my GameScene with Behaviour Trees and Boids so next week I can get further feedback from Dr.Carlo and improve furthermore. 
 
+**Week 10 Feedback**
+- **Feedback:** 
+- **Action Taken:** 
 
+  
 ## Folders / Structures
 
 Basmah_Arif_21159823
