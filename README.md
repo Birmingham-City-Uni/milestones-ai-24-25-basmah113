@@ -285,3 +285,5 @@ Throughout my time in studying, this weekly logbook will document the skills, me
 -	**Reflection:** Pending
 -	**Next Steps:** Pending
 
+## References
+
