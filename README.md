@@ -234,6 +234,54 @@ Throughout my time in studying, this weekly logbook will document the skills, me
 -	**Reflection:** Implementing these changes made the game flow more naturally and added a layer of polish to the AI mechanics. Preparing for Milestone II also helped me assess the progress and areas that need further development.
 -	**Next Steps:** Continue refining the game mechanics and AI behaviours based on feedback from Milestone II. 
 
-**Week 8: Milestone II Feedback – W/C 11th November 2024**
+**Week 8: Milestone II Submission – W/C 11th November 2024**
+-	**Summary:** Submitted Milestone II submission and learned about steering behaviours in this week’s lab. Dr. Carlo suggested focusing on implementing boid behaviours for bats in my game, particularly focusing on flocking and spawning mechanics.
+-	**Progress:** Completed the lab on steering behaviours and flocking, where I implemented basic bird flocking behaviours and explored how to adapt this technique for my bats in the game. I also integrated boid mechanics into my game scene and began experimenting with spawning logic for the bats. Additionally, I documented the updated feedback in my repository and started refining AI agent movement in my game.
+-	**Reflection:** The steering behaviours lab provided a great foundation for understanding flocking and cohesive movement in AI agents. Applying this to my bats in the game added a dynamic layer to their behaviour, making them feel more realistic and interactive. Feedback from Dr. Carlo guided me to better structure the spawning mechanics.
+-	**Next Steps:** Refine the flocking mechanics for the bats and finalize their spawning behaviour. Start integrating these updates into the overall gameplay loop and ensure their interactions align with the player’s actions.
 
-Pending
+**Week 9: Boid Mechanics and Game Scene Enhancements – W/C 18th November 2024**
+-	**Summary:** This week focused on boid mechanics and their implementation in AI. I also worked extensively on the game scene, enhancing Pathfinding, navigation and behaviour trees for both bats and other AI agents.
+-	**Progress:** In the lab, I learned about the fundamentals of boid steering and movement, focusing on behaviours like cohesion, separation and alignment. These principles were then applied to improve the bats’ flocking behaviours in my game. Additionally, I refined the behaviour trees in Unity to add more reactive AI interactions and started testing how the bats’ movements influence player engagement. The Pathfinding AI grid was optimized further, ensuring smoother transitions and fewer glitches.
+-	**Reflection:** Diving deeper into boid mechanics helped me refine the bats’ behaviours, making them more fluid and cohesive. Integrating these updates into the game scene added more complexity to the gameplay while maintaining a sense of realism. Behaviour trees required careful planning to ensure logical decision-making for the AI.
+-	**Next Steps:** Continue refining the behaviour trees and boid mechanics while ensuring they align with the game’s overarching goals. Begin testing how these updates affect gameplay difficulty and player immersion.
+
+**Week 10: Reinforcement Learning with ML Agents – W/C 25th November 2024**
+-	**Summary:** Focused on reinforcement learning through ML agents in Unity and implemented elements of the hummingbird lab into my game. Continued working on the game scene to integrate reinforcement learning concepts.
+-	**Progress:** Completed the ML agents hummingbird lab, where I learned how to train agents using reinforcement learning. I began adapting these concepts to my game by experimenting with dynamic player interactions. For example, I started testing how AI agents could dynamically respond to player actions, such as chasing or evading based on specific reinforcement criteria. Additionally, I refined the Pathfinding system, ensuring seamless integration with these behaviours. I also continued updating my repository and logbook to document these changes.
+-	**Reflection:** The ML agents lab was challenging as it introduced a new layer of intelligence to the AI agents. Applying reinforcement learning concepts to my game required additional experimentation, but the results were promising in creating more reactive and intelligent agents. This week also reinforced the importance of testing and iterating to achieve desired outcomes.
+-	**Next Steps:** Build upon reinforcement learning principles to create smarter AI behaviours. Focus on ensuring all AI interactions feel cohesive within the game environment.
+
+
+## December 2024
+
+**Week 11: Neural Networks and Milestone III Preparation – W/C 2nd December 2024**
+-	**Summary:** This week, we got introduced to neural networks, focusing on the Smart Kart lab, while continuing to implement Unity ML agents from the previous week. Additionally, I began preparing for Milestone III by consolidating the progress made so far.
+-	**Progress:** Completed the Smart Kart neural network lab, which provided valuable insights into creating goal-oriented AI agents. I continued refining the hummingbird implementation to further explore reinforcement learning in Unity ML agents. In the game scene, I focused on integrating neural network concepts to improve AI decision-making. Furthermore, I started preparing for Milestone III by compiling updated documentation, creating a summary of the AI mechanics implemented and outlining the next stages of development.
+-	**Reflection:** Learning about neural networks was both challenging and exciting, as it opened up possibilities for more advanced AI behaviours in the game. Preparing for Milestone III helped me reflect on the progress made so far and identify areas that require further improvement. The integration of neural networks into the game added a level of depth to the AI, making it more responsive and intelligent.
+-	**Next Steps:** Finalize preparations for Milestone III, ensuring all documentation is ready. Continue iterating on the game scene to polish AI behaviours and interactions.
+
+**Week 12: – W/C 9th December 2024**
+-	**Summary:** 
+-	**Progress:** 
+-	**Reflection:** 
+-	**Next Steps:**
+
+**Week 13: – W/C 16th December 2024**
+-	**Summary:** Pending
+-	**Progress:** Pending
+-	**Reflection:** Pending
+-	**Next Steps:** Pending
+
+**Week 14: – W/C 23rd December 2024**
+-	**Summary:** Pending
+-	**Progress:** Pending
+-	**Reflection:** Pending
+-	**Next Steps:** Pending
+
+**Week 15: – W/C 30th December 2024**
+-	**Summary:** Pending
+-	**Progress:** Pending
+-	**Reflection:** Pending
+-	**Next Steps:** Pending
+
