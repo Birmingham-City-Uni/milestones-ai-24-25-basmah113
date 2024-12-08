@@ -54,13 +54,24 @@ The game has been inspired by my childhood interest with vampires, especially th
 
 **Map Layout**
 
+The map features a central river dividing open battle zones and dense forest areas, creating natural obstacles and strategic points for AI pathfinding and ambushes in the Dracula boss battle. 
+
+**Gameplay Implications:**
+
+- **Strategic Movement:** The river, forested areas and rocks make navigation and combat strategic so the player and AI agents can carefully move around obstacles.
+
+- **Pathfinding Complexity:** The combination of walkable and non-walkable areas provides a challenging environment for pathfinding, especially when further implementations of algorithms like A* will be used to navigate around obstacles.
+  
+- **Ambush and Defense:** The trees and rocks offer tactical ambush spots for bats, while the open areas and river crossings become high-stakes zones for confrontations with Dracula.
+
 ![Map Layout](https://github.com/user-attachments/assets/b865999b-38b2-4c4a-a31b-db1da8fc97e5)
 
 
-**Current Progress**
+**Initial Progress by Week 8**
+
+Below is the initial progress of the gameplay which shows the player facing off against the Dracula boss character in an open environment. 
 
 ![Progress](https://github.com/user-attachments/assets/9af2995b-3de2-4a67-9771-5b4d96d3d54a)
-
 
 
 ## Technologies Used
@@ -83,11 +94,15 @@ The game has been inspired by my childhood interest with vampires, especially th
 - **Feedback:** I have been awarded 5.00 marks for my first milestone for GitHub Repro. The feedback which I received was to link the GitHub Project within the repository, as it was externally done. 
 - **Action Taken:** I had a discussion with Dr.Carlo to invite me to the BCU organization so I can link my Project accurately within the repository. Then after I had access, I added the projects to my repository. I also worked on my Pull Request Code reviews in the github repository and also I made sure to fix the issue with my CI /CD Build Issue in the repository. 
 
-**Week 8 Feedback (Milestone 2)**
-- **Feedback:** PENDING
-- **Action Taken:** PENDING
+**Week 9 Feedback (Milestone 2)**
+- **Feedback:** I have been awarded 5.00 marks for my second milestone for GitHub Repro. I have briefly discussed with Dr.Carlo about the Boids which I should use in my GameScene and he has suggested me that Spawning & Flocking Bats will be easier for me.
+- **Action Taken:** I am going to further implement my GameScene with Behaviour Trees and Boids so next week I can get further feedback from Dr.Carlo and improve furthermore. 
 
+**Week 10 Feedback**
+- **Feedback:** During Week 10, I discussed about my concerns regarding few elements in my game scene. Dr.Carlo provided detailed feedback on implementing boids in my game scene. He suggested refining the flocking behaviour for the bats to make their movement more natural and immersive. He emphasized the importance of aligning the boids' movement with the game’s environment and ensuring that the flock responds dynamically to player actions, such as scattering or regrouping when the player is nearby.
+- **Action Taken:** Following the feedback, I worked on implementing the boids' flocking behaviour using Unity's steering behaviour principles. I enhanced the bats’ movement by tweaking parameters like alignment, cohesion and separation, ensuring the flock moved cohesively while maintaining individual agent autonomy. Additionally, I integrated spawning mechanics for the boids, allowing bats to appear dynamically based on the player’s location in the game scene.
 
+  
 ## Folders / Structures
 
 Basmah_Arif_21159823
@@ -186,7 +201,7 @@ Throughout my time in studying, this weekly logbook will document the skills, me
 ## October 2024
 
 **Week 3: Updating GitHub, Presentation & Preparation for Milestone 1 – W/C 7th October 2024**
-- **Summary:** Focused on organizing the GitHub repository and preparing for Milestone 1. Dr. Carlo provided guidance on best examples for GitHub project structure and logbook maintenance. I also discussed my Game Idea with Dr.Carlo and he gave me feedback on the further improvements which needs to be completed. 
+- **Summary:** Focused on organizing the GitHub repository and preparing for Milestone 1. Dr.Carlo provided guidance on best examples for GitHub project structure and logbook maintenance. I also discussed my Game Idea with Dr.Carlo and he gave me feedback on the further improvements which needs to be completed. 
 - **Progress:** Organized the repository, added weekly logs, and created GitHub issues for task tracking. Began brainstorming the Dracula boss battle AI mechanics and incorporated feedback from Dr. Carlo.
 - **Reflection:** Felt more confident after structuring the repository. Tutor feedback was helpful in refining the game concept and mechanics.
 - **Next Steps:** Implement AI mechanics for the Dracula boss, including bat agent spawning and damage logic.
@@ -219,6 +234,56 @@ Throughout my time in studying, this weekly logbook will document the skills, me
 -	**Reflection:** Implementing these changes made the game flow more naturally and added a layer of polish to the AI mechanics. Preparing for Milestone II also helped me assess the progress and areas that need further development.
 -	**Next Steps:** Continue refining the game mechanics and AI behaviours based on feedback from Milestone II. 
 
-**Week 8: Milestone II Feedback – W/C 11th November 2024**
+**Week 8: Milestone II Submission – W/C 11th November 2024**
+-	**Summary:** Submitted Milestone II submission and learned about steering behaviours in this week’s lab. Dr.Carlo suggested focusing on implementing boid behaviours for bats in my game, particularly focusing on flocking and spawning mechanics.
+-	**Progress:** Completed the lab on steering behaviours and flocking, where I implemented basic bird flocking behaviours and explored how to adapt this technique for my bats in the game. I also integrated boid mechanics into my game scene and began experimenting with spawning logic for the bats. Additionally, I documented the updated feedback in my repository and started refining AI agent movement in my game.
+-	**Reflection:** The steering behaviours lab provided a great foundation for understanding flocking and cohesive movement in AI agents. Applying this to my bats in the game added a dynamic layer to their behaviour, making them feel more realistic and interactive. Feedback from Dr. Carlo guided me to better structure the spawning mechanics.
+-	**Next Steps:** Refine the flocking mechanics for the bats and finalize their spawning behaviour. Start integrating these updates into the overall gameplay loop and ensure their interactions align with the player’s actions.
 
-Pending
+**Week 9: Boid Mechanics and Game Scene Enhancements – W/C 18th November 2024**
+-	**Summary:** This week focused on boid mechanics and their implementation in AI. I also worked extensively on the game scene, enhancing Pathfinding, navigation and behaviour trees for both bats and other AI agents.
+-	**Progress:** In the lab, I learned about the fundamentals of boid steering and movement, focusing on behaviours like cohesion, separation and alignment. These principles were then applied to improve the bats’ flocking behaviours in my game. Additionally, I refined the behaviour trees in Unity to add more reactive AI interactions and started testing how the bats’ movements influence player engagement. The Pathfinding AI grid was optimized further, ensuring smoother transitions and fewer glitches.
+-	**Reflection:** Diving deeper into boid mechanics helped me refine the bats’ behaviours, making them more fluid and cohesive. Integrating these updates into the game scene added more complexity to the gameplay while maintaining a sense of realism. Behaviour trees required careful planning to ensure logical decision-making for the AI.
+-	**Next Steps:** Continue refining the behaviour trees and boid mechanics while ensuring they align with the game’s overarching goals. Begin testing how these updates affect gameplay difficulty and player immersion.
+
+**Week 10: Reinforcement Learning with ML Agents – W/C 25th November 2024**
+-	**Summary:** Focused on reinforcement learning through ML agents in Unity and implemented elements of the hummingbird lab into my game. Continued working on the game scene to integrate reinforcement learning concepts.
+-	**Progress:** Completed the ML agents hummingbird lab, where I learned how to train agents using reinforcement learning. I began adapting these concepts to my game by experimenting with dynamic player interactions. For example, I started testing how AI agents could dynamically respond to player actions, such as chasing or evading based on specific reinforcement criteria. Additionally, I refined the Pathfinding system, ensuring seamless integration with these behaviours. I also continued updating my repository and logbook to document these changes.
+-	**Reflection:** The ML agents lab was challenging as it introduced a new layer of intelligence to the AI agents. Applying reinforcement learning concepts to my game required additional experimentation, but the results were promising in creating more reactive and intelligent agents. This week also reinforced the importance of testing and iterating to achieve desired outcomes.
+-	**Next Steps:** Build upon reinforcement learning principles to create smarter AI behaviours. Focus on ensuring all AI interactions feel cohesive within the game environment.
+
+
+## December 2024
+
+**Week 11: Neural Networks and Milestone III Preparation – W/C 2nd December 2024**
+-	**Summary:** This week, we got introduced to neural networks, focusing on the Smart Kart lab, while continuing to implement Unity ML agents from the previous week. Additionally, I began preparing for Milestone III by consolidating the progress made so far.
+-	**Progress:** Completed the Smart Kart neural network lab, which provided valuable insights into creating goal-oriented AI agents. I continued refining the hummingbird implementation to further explore reinforcement learning in Unity ML agents. In the game scene, I focused on integrating neural network concepts to improve AI decision-making. Furthermore, I started preparing for Milestone III by compiling updated documentation, creating a summary of the AI mechanics implemented and outlining the next stages of development.
+-	**Reflection:** Learning about neural networks was both challenging and exciting, as it opened up possibilities for more advanced AI behaviours in the game. Preparing for Milestone III helped me reflect on the progress made so far and identify areas that require further improvement. The integration of neural networks into the game added a level of depth to the AI, making it more responsive and intelligent.
+-	**Next Steps:** Finalize preparations for Milestone III, ensuring all documentation is ready. Continue iterating on the game scene to polish AI behaviours and interactions.
+
+**Week 12: – W/C 9th December 2024**
+-	**Summary:** Pending
+-	**Progress:** Pending
+-	**Reflection:** Pending
+-	**Next Steps:** Pending
+
+**Week 13: – W/C 16th December 2024**
+-	**Summary:** Pending
+-	**Progress:** Pending
+-	**Reflection:** Pending
+-	**Next Steps:** Pending
+
+**Week 14: – W/C 23rd December 2024**
+-	**Summary:** Pending
+-	**Progress:** Pending
+-	**Reflection:** Pending
+-	**Next Steps:** Pending
+
+**Week 15: – W/C 30th December 2024**
+-	**Summary:** Pending
+-	**Progress:** Pending
+-	**Reflection:** Pending
+-	**Next Steps:** Pending
+
+## References
+
