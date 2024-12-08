@@ -99,8 +99,8 @@ The current progress of the gameplay shows the player facing off against the Dra
 - **Action Taken:** I am going to further implement my GameScene with Behaviour Trees and Boids so next week I can get further feedback from Dr.Carlo and improve furthermore. 
 
 **Week 10 Feedback**
-- **Feedback:** 
-- **Action Taken:** 
+- **Feedback:** During Week 10, I discussed about my concerns regarding few elements in my game scene. Dr.Carlo provided detailed feedback on implementing boids in my game scene. He suggested refining the flocking behaviour for the bats to make their movement more natural and immersive. He emphasized the importance of aligning the boids' movement with the game’s environment and ensuring that the flock responds dynamically to player actions, such as scattering or regrouping when the player is nearby.
+- **Action Taken:** Following the feedback, I worked on implementing the boids' flocking behaviour using Unity's steering behaviour principles. I enhanced the bats’ movement by tweaking parameters like alignment, cohesion and separation, ensuring the flock moved cohesively while maintaining individual agent autonomy. Additionally, I integrated spawning mechanics for the boids, allowing bats to appear dynamically based on the player’s location in the game scene.
 
   
 ## Folders / Structures
@@ -201,7 +201,7 @@ Throughout my time in studying, this weekly logbook will document the skills, me
 ## October 2024
 
 **Week 3: Updating GitHub, Presentation & Preparation for Milestone 1 – W/C 7th October 2024**
-- **Summary:** Focused on organizing the GitHub repository and preparing for Milestone 1. Dr. Carlo provided guidance on best examples for GitHub project structure and logbook maintenance. I also discussed my Game Idea with Dr.Carlo and he gave me feedback on the further improvements which needs to be completed. 
+- **Summary:** Focused on organizing the GitHub repository and preparing for Milestone 1. Dr.Carlo provided guidance on best examples for GitHub project structure and logbook maintenance. I also discussed my Game Idea with Dr.Carlo and he gave me feedback on the further improvements which needs to be completed. 
 - **Progress:** Organized the repository, added weekly logs, and created GitHub issues for task tracking. Began brainstorming the Dracula boss battle AI mechanics and incorporated feedback from Dr. Carlo.
 - **Reflection:** Felt more confident after structuring the repository. Tutor feedback was helpful in refining the game concept and mechanics.
 - **Next Steps:** Implement AI mechanics for the Dracula boss, including bat agent spawning and damage logic.
@@ -235,7 +235,7 @@ Throughout my time in studying, this weekly logbook will document the skills, me
 -	**Next Steps:** Continue refining the game mechanics and AI behaviours based on feedback from Milestone II. 
 
 **Week 8: Milestone II Submission – W/C 11th November 2024**
--	**Summary:** Submitted Milestone II submission and learned about steering behaviours in this week’s lab. Dr. Carlo suggested focusing on implementing boid behaviours for bats in my game, particularly focusing on flocking and spawning mechanics.
+-	**Summary:** Submitted Milestone II submission and learned about steering behaviours in this week’s lab. Dr.Carlo suggested focusing on implementing boid behaviours for bats in my game, particularly focusing on flocking and spawning mechanics.
 -	**Progress:** Completed the lab on steering behaviours and flocking, where I implemented basic bird flocking behaviours and explored how to adapt this technique for my bats in the game. I also integrated boid mechanics into my game scene and began experimenting with spawning logic for the bats. Additionally, I documented the updated feedback in my repository and started refining AI agent movement in my game.
 -	**Reflection:** The steering behaviours lab provided a great foundation for understanding flocking and cohesive movement in AI agents. Applying this to my bats in the game added a dynamic layer to their behaviour, making them feel more realistic and interactive. Feedback from Dr. Carlo guided me to better structure the spawning mechanics.
 -	**Next Steps:** Refine the flocking mechanics for the bats and finalize their spawning behaviour. Start integrating these updates into the overall gameplay loop and ensure their interactions align with the player’s actions.
