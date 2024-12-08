@@ -67,9 +67,9 @@ The map features a central river dividing open battle zones and dense forest are
 ![Map Layout](https://github.com/user-attachments/assets/b865999b-38b2-4c4a-a31b-db1da8fc97e5)
 
 
-**Current Progress**
+**Initial Progress by Week 8**
 
-The current progress of the gameplay shows the player facing off against the Dracula boss character in an open environment. 
+Below is the initial progress of the gameplay which shows the player facing off against the Dracula boss character in an open environment. 
 
 ![Progress](https://github.com/user-attachments/assets/9af2995b-3de2-4a67-9771-5b4d96d3d54a)
 
@@ -262,10 +262,10 @@ Throughout my time in studying, this weekly logbook will document the skills, me
 -	**Next Steps:** Finalize preparations for Milestone III, ensuring all documentation is ready. Continue iterating on the game scene to polish AI behaviours and interactions.
 
 **Week 12: – W/C 9th December 2024**
--	**Summary:** 
--	**Progress:** 
--	**Reflection:** 
--	**Next Steps:**
+-	**Summary:** Pending
+-	**Progress:** Pending
+-	**Reflection:** Pending
+-	**Next Steps:** Pending
 
 **Week 13: – W/C 16th December 2024**
 -	**Summary:** Pending
