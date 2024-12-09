@@ -287,3 +287,8 @@ Throughout my time in studying, this weekly logbook will document the skills, me
 
 ## References
 
+- DarkWing (2023). Unity | How to make a simple AI Navigation System - 2023. [online] YouTube. Available at: https://www.youtube.com/watch?v=HOAPvQONpsU [Accessed 2 Oct. 2024].
+- FAR Gaming (2023). NEW AI Navigation - Unity 2023. [online] YouTube. Available at: https://www.youtube.com/watch?v=K6bBC0qkImI [Accessed 2 Nov. 2024].
+- Jason Weimann (GameDev) (2024). New Unity AI Navigation System - Click To Move & Animation in Unity3d. [online] YouTube. Available at: https://www.youtube.com/watch?v=sOIQCHNJbCs [Accessed 9 Dec. 2024].
+
+
