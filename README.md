@@ -28,7 +28,6 @@ The game has been inspired by my childhood interest with vampires, especially th
 Software used to implement the Game Scene:
 
 - Visual Studio: https://https//code.visualstudio.com/
-
 - Unity: https://unity.com/
 
 **Tutor Feedback Reflection**
