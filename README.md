@@ -35,6 +35,7 @@ The game is a Level 1 Boss Battle where the protagonist, a human warrior, battle
 
 The game has been inspired by my childhood interest with vampires, especially the mythical Dracula. Because of their mysterious nature, life expectancy, and sinister charm, vampires have always captivated me. My decision to create my game on a boss fight with Dracula was driven by this obsession. My goal is to draw players into a gothic, spooky setting that relies on this immortal mythos by include vampires and bats. In order to further establish Dracula as a terrifying opponent, it has been decided to make him somewhat larger than human warrior, which leaves the player feeling powerless and in fear. I choose to concentrate on Finite State Machines (FSMs) for the AI behaviour because I want to provide an engaging and difficult experience. Since FSMs enable more complex opponent behaviour, boss battles become unpredictable and fascinating. In order to balance the game's difficulty level and provide the player with feedback on their performance, I'm also including health and distance checks. By attacking the player at crucial times when they are most exposed, the AI agents (bats) will be vital in raising the tension. These agents will be called out by Dracula at certain health thresholds, which is closely related to his combat plan.
 
+
 ## UML Class Diagram 
 
 ![uml diagram](https://github.com/user-attachments/assets/4e32ec0c-f36d-4cce-b31a-90673dc6e065)
@@ -83,6 +84,7 @@ Below is the initial progress of the gameplay which shows the player facing off 
 - GitHub: (Version control and collaboration)
   
 - C#: (Programming Languages for scripting and game mechanics)
+
   
 ## Tutor Feedback Reflection
 
@@ -171,8 +173,6 @@ Open Visual Studio from application folder
 4. Push to the branch: git push origin my-repository
   
 5. Submit a pull request :D
-
-**References:**
 
 
 **Contributors**
@@ -286,4 +286,11 @@ Throughout my time in studying, this weekly logbook will document the skills, me
 -	**Next Steps:** Pending
 
 ## References
+
+- DarkWing (2023). Unity | How to make a simple AI Navigation System - 2023. [online] YouTube. Available at: https://www.youtube.com/watch?v=HOAPvQONpsU [Accessed 2 Oct. 2024].
+- FAR Gaming (2023). NEW AI Navigation - Unity 2023. [online] YouTube. Available at: https://www.youtube.com/watch?v=K6bBC0qkImI [Accessed 2 Nov. 2024].
+- Jason Weimann (GameDev) (2024). New Unity AI Navigation System - Click To Move & Animation in Unity3d. [online] YouTube. Available at: https://www.youtube.com/watch?v=sOIQCHNJbCs [Accessed 9 Dec. 2024].
+
+
+
 
