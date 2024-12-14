@@ -104,7 +104,13 @@ Below is the initial progress of the gameplay which shows the player facing off 
 - **Feedback:** During Week 10, I discussed about my concerns regarding few elements in my game scene. Dr.Carlo provided detailed feedback on implementing boids in my game scene. He suggested refining the flocking behaviour for the bats to make their movement more natural and immersive. He emphasized the importance of aligning the boids' movement with the game’s environment and ensuring that the flock responds dynamically to player actions, such as scattering or regrouping when the player is nearby.
 - **Action Taken:** Following the feedback, I worked on implementing the boids' flocking behaviour using Unity's steering behaviour principles. I enhanced the bats’ movement by tweaking parameters like alignment, cohesion and separation, ensuring the flock moved cohesively while maintaining individual agent autonomy. Additionally, I integrated spawning mechanics for the boids, allowing bats to appear dynamically based on the player’s location in the game scene.
 
-  
+**Week 12 Feedback (Milestone 3)**
+- **Feedback:** I have been awarded 5.00 marks for my third milestone for the GitHub repository. Dr. Carlo reviewed my current progress and suggested further enhancing the game by integrating additional AI features, such as more complex behaviour trees and dynamic obstacle interactions before the bootcamp review. I also asked him few questions related to Unity packages for usage in my Project. 
+- **Action Taken:** Building on the feedback, I started refining the Behaviour Trees to create more advanced and realistic bat AI behaviours. This includes introducing state transitions where the bats can alternate between passive flocking, attacking and retreating based on the player’s proximity and actions. Additionally, I began working on dynamic obstacle interactions, allowing bats to adjust their paths to avoid collisions dynamically.
+
+**BootCamp Feedback:**
+
+
 ## Folders / Structures
 
 Basmah_Arif_21159823
@@ -261,13 +267,13 @@ Throughout my time in studying, this weekly logbook will document the skills, me
 -	**Reflection:** Learning about neural networks was both challenging and exciting, as it opened up possibilities for more advanced AI behaviours in the game. Preparing for Milestone III helped me reflect on the progress made so far and identify areas that require further improvement. The integration of neural networks into the game added a level of depth to the AI, making it more responsive and intelligent.
 -	**Next Steps:** Finalize preparations for Milestone III, ensuring all documentation is ready. Continue iterating on the game scene to polish AI behaviours and interactions.
 
-**Week 12: – W/C 9th December 2024**
--	**Summary:** Pending
--	**Progress:** Pending
--	**Reflection:** Pending
--	**Next Steps:** Pending
+**Week 12: Genetic Techniques and Milestone III – W/C 9th December 2024**
+-	**Summary:** This week, we explored genetic techniques in AI, focusing on how evolutionary algorithms can be applied to optimize decision-making and agent behaviours. I continued refining my game scene, implementing additional AI features such as enhanced bat flocking and dynamic interactions. Additionally, I finalized and submitted Milestone III, incorporating feedback from previous weeks and demonstrating the improvements made to the AI mechanics.
+-	**Progress:** Completed the lab on genetic techniques, which provided insights into using evolutionary algorithms to optimize agent behaviour. I started exploring how these techniques could improve decision-making in the Behaviour Trees of my AI agents. In the game scene, I implemented further enhancements to the bats' behaviour, allowing them to dynamically adapt to player actions and environmental triggers. I also refined the spawning system to make it more efficient and cohesive. These updates were documented and showcased in the Milestone III submission.
+-	**Reflection:** Learning about genetic techniques expanded my understanding of optimization in AI, particularly in creating adaptive behaviours for agents. Applying these concepts to my project was challenging but rewarding, as it improved the realism and depth of the bat AI. Milestone III provided an opportunity to consolidate my progress and demonstrate how feedback and new concepts have been integrated into the project.
+-	**Next Steps:** Begin implementing additional game features, such as environmental triggers and advanced player interactions, in preparation for the final submission. 
 
-**Week 13: – W/C 16th December 2024**
+**Week 13: BootCamp Session & Project Implementation for Submission – W/C 16th December 2024**
 -	**Summary:** Pending
 -	**Progress:** Pending
 -	**Reflection:** Pending
