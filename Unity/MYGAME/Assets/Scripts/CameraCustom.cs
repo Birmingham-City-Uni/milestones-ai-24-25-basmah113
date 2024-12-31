@@ -3,7 +3,7 @@ using UnityEngine;
 public class CameraCustom : MonoBehaviour
 {
 	public Transform target; // The target (usually the player) the camera will follow
-	public Vector3 offset = new Vector3(0, 5, -10); // Offset from the target
+	public Vector3 offset = new Vector3(0, 2, -5); // Offset from the target
 	public float followSpeed = 5f; // Smoothness of camera following
 	public float rotationSpeed = 100f; // Speed of rotation when moving the camera
 	public bool allowRotation = true; // Allow the camera to rotate with mouse input
@@ -16,9 +16,14 @@ public class CameraCustom : MonoBehaviour
 		if (target == null)
 		{
 			Debug.LogError("No target assigned for the camera to follow!");
+			return;
 		}
 
-		// Initialize camera rotation
+		// Initialize camera rotation based on the target's position
+		transform.position = target.position + offset;
+		transform.LookAt(target.position + Vector3.up * 1.5f);
+
+		// Save initial rotation values
 		Vector3 angles = transform.eulerAngles;
 		yaw = angles.y;
 		pitch = angles.x;

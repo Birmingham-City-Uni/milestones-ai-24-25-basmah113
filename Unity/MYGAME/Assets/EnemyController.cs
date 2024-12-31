@@ -70,10 +70,12 @@ public class EnemyController : MonoBehaviour
 			if (Vector3.Distance(transform.position, player.position) < distanceOffset)
 			{
 				ChangeState(AISTATE.ATTACK);
+				transform.LookAt(player.position);
 				yield break;
 			}
 
 			enemy.SetDestination(player.position);
+		
 			yield return null;
 		}
 	}
@@ -90,7 +92,8 @@ public class EnemyController : MonoBehaviour
 			}
 
 			Debug.Log("Attack!");
-			yield return null;
+			player.GetComponent<HealthManager>().TakeDamage(10f);
+			yield return new WaitForSeconds(1f); 
 		}
 	}
 
