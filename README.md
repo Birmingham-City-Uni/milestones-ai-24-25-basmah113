@@ -9,15 +9,15 @@ This file contains the development of an Artificial Intelligence Game project cr
 
 ## Description of the Game
 
-The game is a Level 1 Boss Battle where the protagonist, a human warrior, battles a Dracula, who appears to be very powerful/terrifying vampire leader. Dracula appears as a slightly larger, more imposing figure in this dramatic battle, towering over the human warrior to signify the difficult task that lies ahead. There will be Dracula's bat minions who are AI-controlled agents that the human player must carefully combat while avoiding waves of them. The gameplay will become more difficult as a result of these bat agents spawning periodically throughout the battle. As Dracula's faithful slaves, the bats attack the player from every angle, requiring them to continuously strike a balance between attack and defence. The player must carefully dodge the harm caused by the bats in addition to using direct battle to exhaust his health in order to beat Dracula. Both Dracula and the bats' behaviours will be controlled by different Finite State Machines (FSMs), which will make their actions dynamic and difficult. While Dracula will have several states, including Idle, Attack, and Retreat, the bats will gather around the player and do damage occasionally in response to health thresholds and distance checks. Both the player and the enemy will have health checks in the game. The player's and Dracula's health bar will drop when they sustain damage. Throughout the game level, power-ups will be positioned strategically to give players the chance to regain their health at certain times. The game will become increasingly challenging as Dracula's health declines, increasing the strain in the closing seconds of the fight as the AI system carefully controls the bat agents' behaviour and spawning. The Game will also distance-based attacks including Close Range and Mid to Long Range. In Close Range, if the player gets too close in distance to Dracula, he will use devastating melee strikes, including strong bites. In Mid to Long Range, if the player stays farther away, the Dracula will resort to ranged attacks such as sending out waves of bats. 
+The game "Crimson Eclipse" is a Level 1 Boss Battle where the protagonist, a human warrior, battles a Dracula, who appears to be very powerful/terrifying vampire leader. Dracula appears as a slightly larger, more imposing figure in this dramatic battle, towering over the human warrior to signify the difficult task that lies ahead. There will be Dracula's bat minions who are AI-controlled agents that the human player must carefully combat while avoiding waves of them. The gameplay will become more difficult as a result of these bat agents spawning periodically throughout the battle. As Dracula's faithful slaves, the bats attack the player from every angle, requiring them to continuously strike a balance between attack and defence. The player must carefully dodge the harm caused by the bats in addition to using direct battle to exhaust his health in order to beat Dracula. Both Dracula and the bats' behaviours will be controlled by different Finite State Machines (FSMs), which will make their actions dynamic and difficult. While Dracula will have several states, including Idle, Attack, and Retreat, the bats will gather around the player and do damage occasionally in response to health thresholds and distance checks. Both the player and the enemy will have health checks in the game. The player's and Dracula's health bar will drop when they sustain damage. Throughout the game level, power-ups will be positioned strategically to give players the chance to regain their health at certain times. The game will become increasingly challenging as Dracula's health declines, increasing the strain in the closing seconds of the fight as the AI system carefully controls the bat agents' behaviour and spawning. The Game will also distance-based attacks including Close Range and Mid to Long Range. In Close Range, if the player gets too close in distance to Dracula, he will use devastating melee strikes, including strong bites. In Mid to Long Range, if the player stays farther away, the Dracula will resort to ranged attacks such as sending out waves of bats. 
 
 ## Game Mechanics
 
-1. Main Character: A Human Warrior who uses weapons to fight off Dracula and his Bat Minions.
+1. Main Character: A Human Warrior who uses weapons (Sword & Punch) to fight off Dracula and his Bat Minions.
   
-2. Dracula (Main Boss): The Ultimate Boss is a large, strong vampire king. His attacks are deadline and his size increases his reach and strength. He will fight in phases, growing more violent as his health decreases.
+2. Dracula (Main Boss): The Ultimate Boss is a large, strong vampire king. His attacks are deadline and his size increases his reach and strength. He will fight in 4 phases, growing more violent as his health decreases and spawning bats.
   
-3. Bat Minions (AI Agents): The AI-Controlled bats will be spawning throughout the level. They are the player's constant threat and act as additional enemies. AI logic will determine their behaviour (including attack patterns) and frequency of spawning, resulting in a dynamic battlefield.
+3. Bat Minions (AI Agents): The AI-Controlled bats will be spawning throughout the level 4 times whenever the Main Boss's health decreases. They are the player's constant threat and act as additional enemies. AI logic will determine their behaviour (including attack patterns which will be in the form of shooting at the player) and frequency of spawning, resulting in a dynamic battlefield.
   
 4. Finite State Machines:
   
@@ -33,15 +33,17 @@ The game is a Level 1 Boss Battle where the protagonist, a human warrior, battle
 
 ## Background/Motivation
 
-The game has been inspired by my childhood interest with vampires, especially the mythical Dracula. Because of their mysterious nature, life expectancy, and sinister charm, vampires have always captivated me. My decision to create my game on a boss fight with Dracula was driven by this obsession. My goal is to draw players into a gothic, spooky setting that relies on this immortal mythos by include vampires and bats. In order to further establish Dracula as a terrifying opponent, it has been decided to make him somewhat larger than human warrior, which leaves the player feeling powerless and in fear. I choose to concentrate on Finite State Machines (FSMs) for the AI behaviour because I want to provide an engaging and difficult experience. Since FSMs enable more complex opponent behaviour, boss battles become unpredictable and fascinating. In order to balance the game's difficulty level and provide the player with feedback on their performance, I'm also including health and distance checks. By attacking the player at crucial times when they are most exposed, the AI agents (bats) will be vital in raising the tension. These agents will be called out by Dracula at certain health thresholds, which is closely related to his combat plan.
+The game has been inspired by my childhood interest with vampires, especially the mythical Dracula. Because of their mysterious nature, life expectancy, and sinister charm, vampires have always captivated me. My decision to create my game on a boss fight with Dracula was driven by this obsession. My goal is to draw players into a gothic, spooky setting that relies on this immortal mythos by include vampires and bats. In order to further establish Dracula as a terrifying opponent, it has been decided to make him somewhat larger than human warrior, which leaves the player feeling powerless and in fear. I choose to concentrate on Finite State Machines (FSMs) for the AI behaviour because I want to provide an engaging and difficult experience. Since FSMs enable more complex opponent behaviour, boss battles become unpredictable and fascinating. In order to balance the game's difficulty level and provide the player with feedback on their performance, I'm also including health and distance checks. By attacking the player at crucial times when they are most exposed, the AI agents (bats) will be vital in raising the tension. These agents will be called out by Dracula 4 times during the gameplay at certain health thresholds, which is closely related to his combat plan.
 
 ## Game Design 
 
+**Player Control in the Game**
 
-## UML Class Diagram 
-
-![uml diagram](https://github.com/user-attachments/assets/4e32ec0c-f36d-4cce-b31a-90673dc6e065)
-
+- W, A, S, D = Basic Movement
+- J = Sword Attack
+- K = Punching Attack
+- Spacebar = Jumping
+  
 
 ## Development Specification
 
@@ -71,6 +73,15 @@ The map features a central river dividing open battle zones and dense forest are
 - **Ambush and Defense:** The trees and rocks offer tactical ambush spots for bats, while the open areas and river crossings become high-stakes zones for confrontations with Dracula.
 
 ![Map Layout](https://github.com/user-attachments/assets/b865999b-38b2-4c4a-a31b-db1da8fc97e5)
+
+
+## UML Class Diagram 
+
+![uml diagram](https://github.com/user-attachments/assets/4e32ec0c-f36d-4cce-b31a-90673dc6e065)
+
+
+## Bats FSM Diagram
+
 
 
 **Initial Progress by Week 8**
