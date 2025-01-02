@@ -75,11 +75,13 @@ Below is the initial progress of the gameplay which shows the player facing off 
 ![Progress](https://github.com/user-attachments/assets/9af2995b-3de2-4a67-9771-5b4d96d3d54a)
 
 
-## Technologies Used
+## Technologies/Softwares/Websites Used
 
 - Visual Studio: https://https//code.visualstudio.com/ (Code Development)
   
 - Unity: https://unity.com/ (Game Engine used for development)
+
+- Unity Asset Store: https://assetstore.unity.com/ (Asset Store used for 3D Models, Characters, Tools, Visual Effects in the game)
   
 - GitHub: (Version control and collaboration)
   
@@ -108,10 +110,9 @@ Below is the initial progress of the gameplay which shows the player facing off 
 - **Feedback:** I have been awarded 5.00 marks for my third milestone for the GitHub repository. Dr. Carlo reviewed my current progress and suggested further enhancing the game by integrating additional AI features, such as more complex behaviour trees and dynamic obstacle interactions before the bootcamp review. I also asked him few questions related to Unity packages for usage in my Project. 
 - **Action Taken:** Building on the feedback, I started refining the Behaviour Trees to create more advanced and realistic bat AI behaviours. This includes introducing state transitions where the bats can alternate between passive flocking, attacking and retreating based on the player’s proximity and actions. Additionally, I began working on dynamic obstacle interactions, allowing bats to adjust their paths to avoid collisions dynamically.
 
-**BootCamp Feedback:**
 
 
-## Folders / Structures
+## Folders / Structures of Final Submission
 
 Basmah_Arif_21159823
 
@@ -127,7 +128,7 @@ Basmah_Arif_21159823
 
 - [Readme] (this file contains documentation)
 
-- [video] (this file will contain gameplay and project demo videos with h264/aac however not yet implemented)
+- [video] (this file contains gameplay and project demo video with h264/aac explaining key concepts)
 
 
 ## Installation
@@ -162,7 +163,7 @@ Open Visual Studio from application folder
 
 **Quality Assurance**
 
-- I will be using code linting for consistency and bug prevention
+- I have used code linting for consistency and bug prevention
 
 - CI/CD setup in GitHub to ensure smooth integration and testing.
   
@@ -273,27 +274,26 @@ Throughout my time in studying, this weekly logbook will document the skills, me
 -	**Reflection:** Learning about genetic techniques expanded my understanding of optimization in AI, particularly in creating adaptive behaviours for agents. Applying these concepts to my project was challenging but rewarding, as it improved the realism and depth of the bat AI. Milestone III provided an opportunity to consolidate my progress and demonstrate how feedback and new concepts have been integrated into the project.
 -	**Next Steps:** Begin implementing additional game features, such as environmental triggers and advanced player interactions, in preparation for the final submission. 
 
-**Week 13: BootCamp Session & Project Implementation for Submission – W/C 16th December 2024**
--	**Summary:** Pending
--	**Progress:** Pending
--	**Reflection:** Pending
--	**Next Steps:** Pending
+**Week 13: Imeplementation of Behaviour Trees for Vampire Boss – W/C 16th December 2024**
+-	**Summary:** Focused on implementing Behaviour Trees to manage complex AI decision-making for the boss Dracula. 
+-	**Progress:** I designed and integrated Behaviour Trees for Dracula which included states such as Idle, Attack, Summon Minions, Retreat and Heal. I incorporated Unity’s Behaviour Bricks package to streamline development. Successfully tested the dynamic switching of states in Dracula based on player actions and game environment conditions.
+-	**Reflection:** Implementing Behaviour Trees provided a significant improvement in AI complexity and decision-making. The hierarchical structure allowed for better organization of AI logic compared to FSMs. Debugging transitions between states was challenging but rewarding. This made the gameplay more engaging as the AI adapted more dynamically to player actions.
+-	**Next Steps:** Refine and optimize Behaviour Trees to ensure smooth transitions between states. Begin testing and integrating bats' flocking with Dracula's summoning mechanics.
 
-**Week 14: – W/C 23rd December 2024**
--	**Summary:** Pending
--	**Progress:** Pending
--	**Reflection:** Pending
--	**Next Steps:** Pending
+**Week 14: Bats Functionality with Boss Behaviour – W/C 23rd December 2024**
+-	**Summary:** Worked on finalizing the functionality of bats and their interaction with Dracula’s AI. Enhanced the coordination between Dracula and the bat minions to create a more challenging and immersive boss fight experience.
+-	**Progress:** I managed to improve the bats’ Flocking Behaviour to align better with player movement and environmental obstacles. I also linked bats’ spawning mechanism with Dracula’s health thresholds, making bats spawn in 4 waves during key moments in the boss fight. I managed to also add visual and audio feedback for bats’ attacks to enhance player immersion. I enhanced Dracula’s AI to dynamically summon bats based on proximity and damage received, creating a tactical layer to the gameplay and making it longer in duration.
+-	**Reflection:** The integration of bats with Dracula’s AI created a cohesive and challenging gameplay experience. Ensuring that the bats’ spawning and behaviours synced seamlessly with Dracula’s health-based triggers required careful balancing. Testing highlighted areas where AI responses needed refinement, particularly in bat retreat behaviours.
+-	**Next Steps:** Finalize Dracula’s behaviour during the final phase of the fight and work on A* Algorithm for dynamic obstacle navigation.
 
-**Week 15: – W/C 30th December 2024**
--	**Summary:** Pending
--	**Progress:** Pending
--	**Reflection:** Pending
--	**Next Steps:** Pending
+**Week 15: A * Algorithm implementation and Final Touches for Submission – W/C 30th December 2024**
+-	**Summary:** Implemented the A* Pathfinding algorithm for dynamic navigation and polished the project for submission. The A* algorithm allowed AI agents to navigate the game environment efficiently, avoiding obstacles and dynamically adapting to changes.
+-	**Progress:** I implemented A* Pathfinding for Dracula, enabling smooth navigation around environmental obstacles like trees and rocks. Integrated A* with existing Behaviour Trees, ensuring Dracula and bats could dynamically adjust paths based on player actions and environmental triggers. I also conducted extensive playtesting to identify and resolve bugs, focusing on pathfinding and AI transitions. Recorded gameplay footage and prepared documentation for final submission.
+-	**Reflection:** A* Pathfinding significantly enhanced the AI’s realism, especially in navigating the complex game environment. Finalizing the submission felt rewarding as the various components (AI, environment, and player interactions) came together cohesively. 
+-	**Next Steps:** Finalize all documentation and submit the project.
+
 
 ## References
-
--Here is the list reordered in alphabetical order:
 
 - Code, C. (n.d.). Create great GAME OVER screen in Unity UI - Unity tutorial. [online] Available at: <https://www.youtube.com/watch?v=K4uOjb5p3Io>.
 - Code Monkey. (n.d.). How to use Machine Learning AI in Unity! (ML-Agents). [online] Available at: <https://www.youtube.com/watch?v=zPFU30tbyKs>.
@@ -316,7 +316,7 @@ Throughout my time in studying, this weekly logbook will document the skills, me
 - Unity Asset Store, n.d. Level 1 Monster Pack. [online] Available at: <https://assetstore.unity.com/packages/3d/characters/creatures/level-1-monster-pack-77703> [Accessed 10 December 2024].
 - Unity Asset Store, n.d. Low Poly Simple Nature Pack. [online] Available at: <https://assetstore.unity.com/packages/3d/environments/landscapes/low-poly-simple-nature-pack-162153> [Accessed 2 October 2024].
 - Unity Asset Store, n.d. Vampire 1. [online] Available at: <https://assetstore.unity.com/packages/3d/characters/vampire-1-236808> [Accessed 2 December 2024].
-- Unity Asset Store, n.d. Volumetric Lines. [online] Available at: <https://assetstore.unity.com/packages/tools/particles-effects/volumetric-lines-29160> [Accessed 10 December 2024>.
+- Unity Asset Store, n.d. Volumetric Lines. [online] Available at: <https://assetstore.unity.com/packages/tools/particles-effects/volumetric-lines-29160> [Accessed 10 December 2024].
 
 
 
