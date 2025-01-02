@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Controller : MonoBehaviour
 {
+    public PlayerRangeChecker _PRC;
     private CharacterController characterController;
     [NonSerialized]
     public Animator characterAnimator;
@@ -21,7 +22,7 @@ public class Controller : MonoBehaviour
     private float inputX = 0;
     private float inputZ = 0;
 
-    [NonSerialized]
+    //[NonSerialized]
     public bool canMove = true;
 
     [NonSerialized]
@@ -78,9 +79,17 @@ public class Controller : MonoBehaviour
 
     void Attacking()
     {
-        canMove = false;
+        //canMove = false;
         characterAnimator.SetBool("isAttacking", true);
     }
 
+	public void PunchDamage()
+	{
+		if (_PRC.isInRange && _PRC._ec != null)
+		{
+			_PRC._ec.GetHit(10); 
+			Debug.Log($"Enemy {_PRC._ec.name} hit, dealt 10 damage.");
+		}
+	}
 
 }

@@ -4,28 +4,49 @@ using UnityEngine;
 
 public class SwordHandler : MonoBehaviour
 {
-    public Controller _C;
-    public GameObject[] _swords;
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.J))
-        {
-            _swords[0].SetActive(false);
-            _swords[1].SetActive(true);
-            SwordAttack();
-        }
+	public Controller _C;
+	public GameObject[] _swords;
+	private PlayerNoise noiseGenerator;
 
-    }
+	void Start()
+	{
+		noiseGenerator = GetComponent<PlayerNoise>();
+	}
 
-    void SwordAttack()
-    {
-        _C.canMove = false;
-        _C.characterAnimator.SetTrigger("SwordAttack");
-    }
+	void Update()
+	{
+		if (Input.GetKeyDown(KeyCode.J)) // Attack input
+		{
+			// Switch swords for the attack animation
+			_swords[0].SetActive(false);
+			_swords[1].SetActive(true);
 
-    public void FncReacive()
-    {
-        _swords[0].SetActive(true);
-        _swords[1].SetActive(false);
-    }
+			// Trigger the sword attack
+			SwordAttack();
+		}
+	}
+
+	void SwordAttack()
+	{
+		Debug.Log("SwordAttack triggered. Generating noise...");
+		if (noiseGenerator != null)
+		{
+			noiseGenerator.GenerateNoise();
+		}
+		else
+		{
+			Debug.LogWarning("No PlayerNoise component found on Player!");
+		}
+
+		_C.characterAnimator.SetTrigger("SwordAttack");
+		Invoke("FncReacive", 0.8f);
+	}
+
+
+
+	public void FncReacive()
+	{
+		_swords[0].SetActive(true);
+		_swords[1].SetActive(false);
+	}
 }

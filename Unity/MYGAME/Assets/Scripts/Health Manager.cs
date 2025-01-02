@@ -26,6 +26,12 @@ public class HealthManager : MonoBehaviour
 		animator = GetComponentInChildren<Animator>();
 	}
 
+	public float GetHealth()
+	{
+		return currentHealth;
+	}
+
+
 	public void TakeDamage(float damage)
 	{
 		if (isDead) return;
