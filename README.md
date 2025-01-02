@@ -23,7 +23,7 @@ The game is a Level 1 Boss Battle where the protagonist, a human warrior, battle
   
  - Dracula: Dracula will be able to move between the following states: Idle, Attack, Summon Minions, Damage, and Retreat. This will make battles unpredictable and interesting.
  
- - Bats: Bats will interact with the player and determine their attack patterns using an FSM.
+ - Bats: Bats will interact with the player and determine their attack patterns using Steering Behaviours.
  
 5. Health Checks: When an enemy or player sustains harm, their health declines. Throughout the fight, strategically placed power-ups will be available to restore health.
    
