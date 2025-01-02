@@ -5,7 +5,7 @@ Basmah Arif | Module CMP6206 Artificial Intelligence for Games | Student ID: 211
 
 ## Overview
 
-This file contains the development of an Artificial Intelligence Game project created using Unity and Visual Studio. The game focuses on implementing AI agents, advanced gameplay mechanics such as Boss Battles and Finite State Machines. It includes descriptions of the game's structure, development progress, technologies used and instructions for setup and contributions. 
+This file contains the development of an Artificial Intelligence Game project created using Unity and Visual Studio. The game focuses on implementing AI agents, advanced gameplay mechanics such as Boss Battle using Finite State Machines, Steering Behaviours, Behavior Trees and Pathfinding. It includes descriptions of the game's structure, development progress, technologies used and instructions for setup and contributions. 
 
 ## Description of the Game
 
@@ -35,6 +35,8 @@ The game is a Level 1 Boss Battle where the protagonist, a human warrior, battle
 
 The game has been inspired by my childhood interest with vampires, especially the mythical Dracula. Because of their mysterious nature, life expectancy, and sinister charm, vampires have always captivated me. My decision to create my game on a boss fight with Dracula was driven by this obsession. My goal is to draw players into a gothic, spooky setting that relies on this immortal mythos by include vampires and bats. In order to further establish Dracula as a terrifying opponent, it has been decided to make him somewhat larger than human warrior, which leaves the player feeling powerless and in fear. I choose to concentrate on Finite State Machines (FSMs) for the AI behaviour because I want to provide an engaging and difficult experience. Since FSMs enable more complex opponent behaviour, boss battles become unpredictable and fascinating. In order to balance the game's difficulty level and provide the player with feedback on their performance, I'm also including health and distance checks. By attacking the player at crucial times when they are most exposed, the AI agents (bats) will be vital in raising the tension. These agents will be called out by Dracula at certain health thresholds, which is closely related to his combat plan.
 
+## Game Design 
+
 
 ## UML Class Diagram 
 
@@ -51,6 +53,9 @@ The game has been inspired by my childhood interest with vampires, especially th
 **Boss Dracula**
 
 ![Dracula Boss](https://github.com/user-attachments/assets/957f6cce-c773-4126-acd7-921380b1f567)
+
+
+**Boids**
 
 
 **Map Layout**
@@ -111,6 +116,22 @@ Below is the initial progress of the gameplay which shows the player facing off 
 - **Action Taken:** Building on the feedback, I started refining the Behaviour Trees to create more advanced and realistic bat AI behaviours. This includes introducing state transitions where the bats can alternate between passive flocking, attacking and retreating based on the player’s proximity and actions. Additionally, I began working on dynamic obstacle interactions, allowing bats to adjust their paths to avoid collisions dynamically.
 
 
+## Folders / Structures of GitHub Repository
+
+- [.github] (contains configuration files, such as workflows for CI/CD pipelines)
+
+- [Audios] (contains all audio assets used in the project, including sound effects, background music)
+
+- [labs] (contains lab workshops from week to week, documenting the progress of lectures)
+
+- [Pictures] (contains projects images and visual assets)
+
+- [Unity] (contains the main Unity project files, including assets, scenes, scripts and prefabs necessary for the game's development)
+
+- [.gitignore] (contains untracked files to ignore in Git such as Build files, logs)
+
+- [README] (this file contains complete documentation)
+
 
 ## Folders / Structures of Final Submission
 
@@ -118,15 +139,9 @@ Basmah_Arif_21159823
 
 - [bin] (contains compiled binaries)
 
-- [code] (contains source code)
+- [code] (contains source code with build files)
 
-- imgs (contains projects images and visual assets)
-
-- [labs] (contains lab workshops from week to week, documenting the progress of lectures)
-
-- .gitignore (contains untracked files to ignore in Git such as Build files, logs)
-
-- [Readme] (this file contains documentation)
+- [Readme] (this file contains complete documentation)
 
 - [video] (this file contains gameplay and project demo video with h264/aac explaining key concepts)
 
