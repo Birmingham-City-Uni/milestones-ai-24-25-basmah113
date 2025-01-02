@@ -311,6 +311,7 @@ Throughout my time in studying, this weekly logbook will document the skills, me
 - Pixabay, n.d. Vampire Sound Effects Search. [online] Available at: <https://pixabay.com/sound-effects/search/vampir/> [Accessed 10 December 2024].
 - The Messy Coder (2018). Unity Tutorials - create AI Trees with Behaviour Designer. [online] YouTube. Available at: <https://www.youtube.com/watch?v=mPbIx5G8Y1E> [Accessed 20 December 2024].
 - Unity Asset Store, n.d. Behavior Bricks. [online] Available at: <https://assetstore.unity.com/packages/tools/visual-scripting/behavior-bricks-74816> [Accessed 2 January 2025].
+- UnityAssetStore. (2021). Blood splatter decal package. [online] Available at: <https://assetstore.unity.com/packages/2d/textures-materials/blood-splatter-decal-package-7518?srsltid=AfmBOoosfnTN293lEHXqNACcdUazzC9JS440RsXfE2TXHcROAAmP83j7> [Accessed 30 December 2024].
 - Unity Asset Store, n.d. Free Low Poly Swords - RPG Weapons. [online] Available at: <https://assetstore.unity.com/packages/3d/props/weapons/free-low-poly-swords-rpg-weapons-198166> [Accessed 2 January 2025].
 - Unity Asset Store, n.d. Free Modular Character - Fantasy RPG Human Male. [online] Available at: <https://assetstore.unity.com/packages/3d/characters/humanoids/humans/free-modular-character-fantasy-rpg-human-male-228952> [Accessed 2 January 2025].
 - Unity Asset Store, n.d. Level 1 Monster Pack. [online] Available at: <https://assetstore.unity.com/packages/3d/characters/creatures/level-1-monster-pack-77703> [Accessed 10 December 2024].
