@@ -293,9 +293,45 @@ Throughout my time in studying, this weekly logbook will document the skills, me
 
 ## References
 
-- DarkWing (2023). Unity | How to make a simple AI Navigation System - 2023. [online] YouTube. Available at: https://www.youtube.com/watch?v=HOAPvQONpsU [Accessed 2 Oct. 2024].
-- FAR Gaming (2023). NEW AI Navigation - Unity 2023. [online] YouTube. Available at: https://www.youtube.com/watch?v=K6bBC0qkImI [Accessed 2 Nov. 2024].
-- Jason Weimann (GameDev) (2024). New Unity AI Navigation System - Click To Move & Animation in Unity3d. [online] YouTube. Available at: https://www.youtube.com/watch?v=sOIQCHNJbCs [Accessed 9 Dec. 2024].
+-Here is the list reordered in alphabetical order:
+
+- Code, C. (n.d.). Create great GAME OVER screen in Unity UI - Unity tutorial. [online] Available at: <https://www.youtube.com/watch?v=K4uOjb5p3Io>.
+- Code Monkey. (n.d.). How to use Machine Learning AI in Unity! (ML-Agents). [online] Available at: <https://www.youtube.com/watch?v=zPFU30tbyKs>.
+- DarkWing (2023). Unity | How to make a simple AI Navigation System - 2023. [online] YouTube. Available at: <https://www.youtube.com/watch?v=HOAPvQONpsU> [Accessed 2 October 2024].
+- FAR Gaming (2023). NEW AI Navigation - Unity 2023. [online] YouTube. Available at: <https://www.youtube.com/watch?v=K6bBC0qkImI> [Accessed 2 November 2024].
+- Hackl, D. (n.d.). Recreating the FALSE KNIGHT Boss Fight in UNITY using Behavior Trees. [online] Available at: <https://www.youtube.com/watch?v=X7VwAGvAOIw> [Accessed 7 December 2024].
+- Iain McManus (2021). Unity AI Tutorial: Finite State Machines. [online] YouTube. Available at: <https://www.youtube.com/watch?v=cwlFbLLR3qc> [Accessed 2 October 2024].
+- Jason Weimann (GameDev) (2024). New Unity AI Navigation System - Click To Move & Animation in Unity3d. [online] YouTube. Available at: <https://www.youtube.com/watch?v=sOIQCHNJbCs> [Accessed 9 December 2024].
+- Lague, S. (2014). A* Pathfinding (E01: algorithm explanation). [online] www.youtube.com. Available at: <https://www.youtube.com/watch?v=-L-WgKMFuhE>.
+- LlamAcademy (2021). NavMesh Basics - Introduction to the NavMeshSurface | AI Series Part 1 | Unity Tutorial. [online] YouTube. Available at: <https://www.youtube.com/watch?v=aHFSDcEQuzQ> [Accessed 2 October 2024].
+- LlamAcademy (2023). GOAP Enemy AI FULL IMPLEMENTATION | AI Series 50 | Unity Tutorial. [online] YouTube. Available at: <https://www.youtube.com/watch?v=85kogmzcLXw> [Accessed 2 October 2024].
+- opsive (2017). Behavior Tree Basics: What is a Behavior Tree? [online] YouTube. Available at: <https://www.youtube.com/watch?v=PuLuwzgYB4g> [Accessed 20 December 2024].
+- Pixabay, n.d. Game Over Sound Effects Search. [online] Available at: <https://pixabay.com/sound-effects/search/game-over/> [Accessed 2 January 2025].
+- Pixabay, n.d. Victory Sound Effects Search. [online] Available at: <https://pixabay.com/sound-effects/search/victory/> [Accessed 2 January 2025].
+- Pixabay, n.d. Vampire Sound Effects Search. [online] Available at: <https://pixabay.com/sound-effects/search/vampir/> [Accessed 10 December 2024].
+- The Messy Coder (2018). Unity Tutorials - create AI Trees with Behaviour Designer. [online] YouTube. Available at: <https://www.youtube.com/watch?v=mPbIx5G8Y1E> [Accessed 20 December 2024].
+- Unity Asset Store, n.d. Behavior Bricks. [online] Available at: <https://assetstore.unity.com/packages/tools/visual-scripting/behavior-bricks-74816> [Accessed 2 January 2025].
+- Unity Asset Store, n.d. Free Low Poly Swords - RPG Weapons. [online] Available at: <https://assetstore.unity.com/packages/3d/props/weapons/free-low-poly-swords-rpg-weapons-198166> [Accessed 2 January 2025].
+- Unity Asset Store, n.d. Free Modular Character - Fantasy RPG Human Male. [online] Available at: <https://assetstore.unity.com/packages/3d/characters/humanoids/humans/free-modular-character-fantasy-rpg-human-male-228952> [Accessed 2 January 2025].
+- Unity Asset Store, n.d. Level 1 Monster Pack. [online] Available at: <https://assetstore.unity.com/packages/3d/characters/creatures/level-1-monster-pack-77703> [Accessed 10 December 2024].
+- Unity Asset Store, n.d. Low Poly Simple Nature Pack. [online] Available at: <https://assetstore.unity.com/packages/3d/environments/landscapes/low-poly-simple-nature-pack-162153> [Accessed 2 October 2024].
+- Unity Asset Store, n.d. Vampire 1. [online] Available at: <https://assetstore.unity.com/packages/3d/characters/vampire-1-236808> [Accessed 2 December 2024].
+- Unity Asset Store, n.d. Volumetric Lines. [online] Available at: <https://assetstore.unity.com/packages/tools/particles-effects/volumetric-lines-29160> [Accessed 10 December 2024>.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
