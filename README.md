@@ -5,7 +5,8 @@ Basmah Arif | Module CMP6206 Artificial Intelligence for Games
 
 ## Overview
 
-This file contains the development of an Artificial Intelligence Game project created using Unity and Visual Studio. The game focuses on implementing AI agents, advanced gameplay mechanics such as Boss Battle using Finite State Machines, Steering Behaviours, Behavior Trees and Pathfinding. It includes descriptions of the game's structure, development progress, technologies used and instructions for setup and contributions. 
+This file contains the development of an Artificial Intelligence Game project created using Unity and Visual Studio. The game focuses on implementing AI agents, advanced gameplay mechanics such as Boss Battle using Finite State Machines, Steering Behaviours, Behavior Trees and Pathfinding. It includes descriptions of the game's structure, development progress, technologies used and instructions for setup and contributions. To play the game, you will need to open the "bin" folder and open the program called "Boss Battle-VampireGame".
+
 
 ## Description of the Game
 
