@@ -1,0 +1,96 @@
+# Prerequisites
+*.d
+
+# Ignore the following directories (Generated files, can be rebuilt):
+Library/
+Temp/
+Obj/
+Logs/
+MemoryCaptures/
+Build/
+Builds/
+
+# Ignore auto-generated VS/JetBrains Rider files:
+.vscode/
+.idea/
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# Ignore user-specific Unity settings:
+UserSettings/
+
+# Ignore build-specific files:
+*.apk
+*.aab
+*.app
+*.exe
+*.dll
+*.dmg
+*.iso
+*.jar
+*.msi
+*.plist
+*.xcodeproj
+*.xcworkspace
+*.xcuserstate
+*.unitypackage
+*.asset
+*.unitypackage
+*.map
+*.hex
+*.swp
+*.sln.docstates
+
+# Ignore platform-specific files:
+*.log
+.DS_Store
+Thumbs.db
+
+# Ignore crash reports:
+CrashReports/
+
+# Unity Asset Files #
+
+# Keep Scenes and Scripts
+!Assets/**/*.cs
+!Assets/**/*.unity
+!Assets/**/*.prefab
+!Assets/**/*.mat
+!Assets/**/*.shader
+!Assets/**/*.png
+!Assets/**/*.jpg
+!Assets/**/*.tga
+!Assets/**/*.meta
+
+# Keep Project Configuration #
+!ProjectSettings/
+!Packages/
+
+# Ignore unnecessary metadata
+# Keeping only essential files for GitHub storage.
+*.meta
+
+# Exclude other files that may be too large:
+*.ogg
+*.mp3
+*.wav
+*.mp4
+*.avi
+*.mov
+*.fbx
+*.tiff
+
+# Ignore log files:
+*.log

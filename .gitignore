@@ -1,0 +1,81 @@
+# Prerequisites
+*.d
+
+# Ignore the following directories (Generated files, can be rebuilt):
+Library/
+Temp/
+Obj/
+Logs/
+MemoryCaptures/
+Build/
+Builds/
+
+# Ignore auto-generated VS/JetBrains Rider files:
+.vscode/
+.idea/
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+* .mdb
+*.opendb
+*.VC.db
+
+# Unity3D generated meta files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Unity3D generated file on crash reports
+sysinfo.txt
+
+# Ignore build-specific files:
+*.apk
+*.aab
+*.app
+*.unitypackage
+
+# Crashlytics generated file
+crashlytics-build.properties
+
+# Ignore user-specific Unity settings:
+UserSettings/
+
+# Unity3D generated file on crash reports
+sysinfo.txt
+
+# Packed Addressables
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Ignore platform-specific files:
+*.log
+.DS_Store
+Thumbs.db
+
+# Keep Project Configuration #
+!ProjectSettings/
+!Packages/
+
+# Exclude other files that may be too large:
+*.ogg
+*.mp3
+*.wav
+*.avi
+*.mov
+*.fbx
+*.tiff
+
+# Ignore log files:
+*.log
+
+# Temporary auto-generated Android Assets
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
