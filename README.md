@@ -70,7 +70,7 @@ Initial Skin of the Boss Dracula in the early stages of the game:
 ![Dracula Boss](https://github.com/user-attachments/assets/957f6cce-c773-4126-acd7-921380b1f567)
 
 
-Final Boss Dracula Implementation: 
+**Final Boss Dracula Implementation**
 
 ![image](https://github.com/user-attachments/assets/57820cf0-8605-4b66-8e47-48edbcd0e72f)
 
@@ -102,7 +102,7 @@ The map features a central river dividing open battle zones and dense forest are
 ![image](https://github.com/user-attachments/assets/83c5ac68-cac4-4e28-8b3b-43b731dee9d2)
 
 
-# PowerUps Used in the Game
+**PowerUps Used in the Game**
 
 I have setup 6 Points on the entire Map for the powerups to randomly spawn on during the gameplay. Once the Player touches the Powerups, the health bar increases and the next powerup spawns at a different location to make the game challenging for the player. 
 
