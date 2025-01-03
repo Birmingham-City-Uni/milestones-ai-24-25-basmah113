@@ -37,7 +37,7 @@ The game has been inspired by my childhood interest with vampires, especially th
 
 ## Game Design 
 
-**Player Control in the Game**
+**Player Controls in the Game**
 
 - W, A, S, D = Basic Movement
 - J = Sword Attack
