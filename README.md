@@ -89,7 +89,7 @@ I have used 4 bats behaving as boids which are spawning together in a group when
 
 **Map Layout**
 
-The map features a central river dividing open battle zones and dense forest areas, creating natural obstacles and strategic points for AI pathfinding and ambushes in the Dracula boss battle. 
+The map features a central river dividing open battle zones and dense forest areas, creating natural obstacles and strategic points for AI pathfinding and ambushes in the Dracula boss battle. I have further added more obstacles on the map such as Cubes, rocks, trees and also added a fire camping site on the side of the map with the walls to further make it challenging. 
 
 **Gameplay Implications:**
 
