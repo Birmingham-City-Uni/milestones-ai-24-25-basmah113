@@ -5,7 +5,8 @@ Basmah Arif | Module CMP6206 Artificial Intelligence for Games
 
 ## Overview
 
-This file contains the development of an Artificial Intelligence Game project created using Unity and Visual Studio. The game focuses on implementing AI agents, advanced gameplay mechanics such as Boss Battle using Finite State Machines, Steering Behaviours, Behavior Trees and Pathfinding. It includes descriptions of the game's structure, development progress, technologies used and instructions for setup and contributions. 
+This file contains the development of an Artificial Intelligence Game project created using Unity and Visual Studio. The game focuses on implementing AI agents, advanced gameplay mechanics such as Boss Battle using Finite State Machines, Steering Behaviours, Behavior Trees and Pathfinding. It includes descriptions of the game's structure, development progress, technologies used and instructions for setup and contributions. To play the game, you will need to open the "bin" folder and open the program called "Boss Battle-VampireGame".
+
 
 ## Description of the Game
 
@@ -149,6 +150,15 @@ The Player and Dracula are interacting in close proximity on a grid based system
 
 ![image](https://github.com/user-attachments/assets/440f83ee-d07c-4204-9516-39c41a4f5dd6)
 
+## Initial Stages of the Game
+
+The Enemy (Red Capsule) starts patrolling randomly on the Waypoints which have been located around the map. Once the Player (White Capsule) is inside the box collider of the Enemy, the state of the Enemy changes from Patrol to Chase and then Attack. If the Player is again out of range, the state of the enemy changes from Chase to Patrol. 
+
+![Screenshot 2024-12-29 171934](https://github.com/user-attachments/assets/4eaf4530-339b-4362-b5d9-0330e674fe36)
+
+![Screenshot 2024-12-29 172009](https://github.com/user-attachments/assets/ccb7d6e4-f01e-435d-b5fb-6be8e8d93faa)
+
+![Screenshot 2024-12-29 172044](https://github.com/user-attachments/assets/39a8da1a-458c-4134-b155-007472cbd982)
 
 
 ## Technologies/Softwares/Websites Used
