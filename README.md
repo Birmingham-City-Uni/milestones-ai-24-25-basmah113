@@ -6,6 +6,7 @@ Basmah Arif | Module CMP6206 Artificial Intelligence for Games
 ## Overview
 
 This file contains the development of an Artificial Intelligence Game project created using Unity and Visual Studio. The game focuses on implementing AI agents, advanced gameplay mechanics such as Boss Battle using Finite State Machines, Steering Behaviours, Behavior Trees and Pathfinding. It includes descriptions of the game's structure, development progress, technologies used and instructions for setup and contributions. To play the game, you will need to open the "bin" folder and open the program called "Boss Battle-VampireGame".
+The Game has been developed in Unity Version 2022.3.26f1. Make Sure to Open the Project through Unity Hub to load the files accurately. 
 
 
 ## Description of the Game
@@ -148,7 +149,6 @@ The Player and Dracula are interacting in close proximity on a grid based system
 
 ![image](https://github.com/user-attachments/assets/2a382417-9813-48c2-b0ae-5e5f2b77e040)
 
-![image](https://github.com/user-attachments/assets/440f83ee-d07c-4204-9516-39c41a4f5dd6)
 
 ## Initial Stages of the Game
 
